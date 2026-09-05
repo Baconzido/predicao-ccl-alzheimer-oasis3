@@ -1,0 +1,36 @@
+# Dados - NUNCA versionar (acordo de uso OASIS-3)
+data/*
+!data/README.md
+!data/download_list.txt
+*.nii
+*.nii.gz
+*.img
+*.hdr
+*.csv
+!resultados/*.csv
+
+# Modelos treinados
+models/
+*.pt
+*.pth
+*.h5
+*.pkl
+*.joblib
+
+# Segredos
+.env
+*.key
+credentials*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Editor
+.vs/
+.vscode/
+.claude/
+tempCodeRunnerFile.py

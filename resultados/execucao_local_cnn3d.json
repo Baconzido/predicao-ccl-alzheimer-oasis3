@@ -1,0 +1,46 @@
+{
+  "results_per_fold": [
+    {
+      "fold": 1,
+      "auc": 0.8571428571428572,
+      "accuracy": 0.6923076923076923,
+      "sensitivity": 0.7142857142857143,
+      "specificity": 0.6666666666666666
+    },
+    {
+      "fold": 2,
+      "auc": 0.888888888888889,
+      "accuracy": 0.6666666666666666,
+      "sensitivity": 0.5,
+      "specificity": 0.8333333333333334
+    },
+    {
+      "fold": 3,
+      "auc": 0.7777777777777779,
+      "accuracy": 0.6666666666666666,
+      "sensitivity": 0.3333333333333333,
+      "specificity": 1.0
+    },
+    {
+      "fold": 4,
+      "auc": 0.8611111111111112,
+      "accuracy": 0.5833333333333334,
+      "sensitivity": 0.3333333333333333,
+      "specificity": 0.8333333333333334
+    },
+    {
+      "fold": 5,
+      "auc": 0.6944444444444444,
+      "accuracy": 0.5833333333333334,
+      "sensitivity": 0.5,
+      "specificity": 0.6666666666666666
+    }
+  ],
+  "summary": {
+    "auc_mean": 0.8158730158730159,
+    "auc_std": 0.0711015441410319,
+    "accuracy_mean": 0.6384615384615385,
+    "sensitivity_mean": 0.47619047619047616,
+    "specificity_mean": 0.8
+  }
+}
